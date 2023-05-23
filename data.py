@@ -10,7 +10,6 @@ WEBSITE_LIST = {"https://www.facebook.com/":
                   "meta store": 'partial link text;Meta Store',
                   "meta quest": 'partial link text;Meta Quest',
                   "instagram":  'partial link text;Instagram',
-                  "bulletin":   'partial link text;Bulletin',
                   "fundraisers":    'partial link text;Fundraisers',
                   "services":   'partial link text;Services',
                   "voting information center":  'partial link text;Voting Information Center',
@@ -27,8 +26,7 @@ WEBSITE_LIST = {"https://www.facebook.com/":
                   "help": 'partial link text;Help',
                   "contact uploading & non-users":  'partial link text;Contact Uploading & Non-Users',
                   "create a page":  'partial link text;Create a Page',
-                  "login":  'partial link text;Log In',
-                  
+                  "login":  'partial link text;Log In'
                  },
                   "sub-endpoints":
                   {
@@ -37,7 +35,7 @@ WEBSITE_LIST = {"https://www.facebook.com/":
                                    "features":  'relies_prev:partial link text;Features',
                                    "desktop app":  'relies_prev:partial link text;Desktop App',
                                    "privacy & saftey":  'relies_prev:partial link text;Privacy & Safety',
-                                   "for developers":  'relies_prev:partial link text;For Developers',    
+                                   "for developers":  'relies_prev:partial link text;For Developers'    
                       },
                       "places":{"mississauga, ontario":'relies_prev:partial link text;Mississauga, Ontario',
                                 "richmond, british columbia":'relies_prev:partial link text;Richmond, British Columbia',
@@ -46,37 +44,120 @@ WEBSITE_LIST = {"https://www.facebook.com/":
                                 "windsor, ontario":'relies_prev:partial link text;Windsor, Ontario',
                                 "burnaby, british columbia":'relies_prev:partial link text;Burnaby, British Columbia',
                                 "markham, ontario":'relies_prev:partial link text;Markham, Ontario',
-                                "moncton, new brunswick":'relies_prev:partial link text;Moncton, New Brunswick',
+                                "moncton, new brunswick":'relies_prev:partial link text;Moncton, New Brunswick'
                                   },
-                      "meta store":{
-                                         
-                                     
+                      "fundraisers":{
+                                 "animals":  'relies_prev:partial link text;Animals',
+                                 "arts and culture":  'relies_prev:partial link text;Arts and Culture',
+                                 "business":  'relies_prev:partial link text;Business',
+                                 "community and social action":  'relies_prev:partial link text;Community and social action',
+                                 "crisis and relief":  'relies_prev:partial link text;Crisis relief',
+                                 "education":  'relies_prev:partial link text;Education',
+                                 "environment":  'relies_prev:partial link text;Environment',
+                                 "faith":  'relies_prev:partial link text;Faith',
+                                 "funeral and loss":  'relies_prev:partial link text;Funeral and loss',
+                                 "health and medical":  'relies_prev:partial link text;Health and medical',
+                                 "international":  'relies_prev:partial link text;International',
+                                 "personal emergency":  'relies_prev:partial link text;Personal emergency',
+                                 "sports":  'relies_prev:partial link text;Sports'
+                      },
+                      "about":{
+                                "developer circles":  'relies_prev:partial link text;Developer Circles',
+                                "threatexchange":  'relies_prev:partial link text;ThreatExchange',
+                                "developer support":  'relies_prev:partial link text;Developer Support',
+                                "bugs":  'relies_prev:partial link text;Bugs',
+                                "platform status":  'relies_prev:partial link text;Platform Status',
+                                "report a platform data incident":  'relies_prev:partial link text;Report a Platform Data Incident',
+                                "facebook for developers community group":  'relies_prev:partial link text;Facebook for Developers Community Group',
+                                "sitemap":  'relies_prev:partial link text;Sitemap'
+                      },
+                      "developers":{
+                                "about meta":  'relies_prev:partial link text;About Meta',
+                                "media gallery":  'relies_prev:partial link text;Media gallery',
+                                "brand resources":  'relies_prev:partial link text;Brand resources',
+                                "for investors":  'relies_prev:partial link text;For investors'                       
                       },
                   }
                 },
-                "next website":
+                "https://www.wikipedia.org/":
                 {"specifics":"ablock=true;",
                  "endpoints":
-                 { 
-                  "places":   'partial link text;Places',
-                  "video":  'css selector;ytd-rich-item-renderer'
+                 {"english":   'partial link text;English',
+                  "日本語":  'partial link text;日本語',
+                  "español":  'partial link text;Español',
+                  "italiano":  'partial link text;Italiano',
+                  "فارسی":  'partial link text;فارسی',
+                  "pусский":  'partial link text;Русский',
+                  "deutsch":  'partial link text;Deutsch',
+                  "français":  'partial link text;Français',
+                  "中文":  'partial link text;中文',
+                  "português":  'partial link text;Português'
                  },
                   "sub-endpoints":
                   {
-                      "main_menu":{"trending":'relies_prev:partial link text;Trending',
-                                   "music":   'relies_prev:partial link text;Music',
-                                   "gaming":  'relies_prev:partial link text;Gaming',
-                                   "news":    'relies_prev:partial link text;News',
-                                   "sports":  'relies_prev:partial link text;Sports',
-                                   "learning":'relies_prev:partial link text;Learning'
+                      "english":{"talk":'relies_prev:partial link text;Talk',
+                                   "view source":   'relies_prev:partial link text;View source',
+                                   "view history":  'relies_prev:partial link text;View history',
+                                   "community portal":    'relies_prev:partial link text;Community portal',
+                                   "village pump":  'relies_prev:partial link text;Village pump',
+                                   "site news":'relies_prev:partial link text;Site news',
+                                   "teahouse":'relies_prev:partial link text;Teahouse',
+                                   "help desk":'relies_prev:partial link text;Help desk',
+                                   "Reference desk":'relies_prev:partial link text;Reference desk',
+                                   "content portals":'relies_prev:partial link text;Content portals'
                                    },
-                      "places":{"video":'rand_ind:css selector;ytd-video-renderer'
+                      "日本語":{"ノート":'relies_prev:partial link text;ノート',
+                                   "ソースを閲覧":   'relies_prev:partial link text;ソースを閲覧',
+                                   "履歴表示":  'relies_prev:partial link text;履歴表示',
+                                   "アカウント作成":    'relies_prev:partial link text;アカウント作成',
+                                   "ログイン":  'relies_prev:partial link text;ログイン',
+                                   "クリエイティブ・コモンズ 表示-継承ライセンス":'relies_prev:partial link text;クリエイティブ・コモンズ 表示-継承ライセンス',
+                                   "利用規約":'relies_prev:partial link text;利用規約',
+                                   "プライバシー・ポリシー":'relies_prev:partial link text;プライバシー・ポリシー',
+                                   "ウィキペディアについて":'relies_prev:partial link text;ウィキペディアについて',
+                                   "モバイルビュー":'relies_prev:partial link text;モバイルビュー',
+                                   "開発者":'relies_prev:partial link text;開発者',
+                                   "統計":'relies_prev:partial link text;統計',
+                                   "Cookieに関する声明":'relies_prev:partial link text;Cookieに関する声明'
                                   },
-                      "music":{"video":'rand_ind:css selector;ytd-video-renderer'
+                      "español":{"Discusión":'relies_prev:partial link text;Discusión',
+                                   "Ver código fuente":   'relies_prev:partial link text;Ver código fuente',
+                                   "Ver historial":  'relies_prev:partial link text;Ver historial',
+                                   "Crear una cuenta":    'relies_prev:partial link text;Crear una cuenta',
+                                   "Acceder":  'relies_prev:partial link text;Acceder',
+                                   "Ciencias sociales":'relies_prev:partial link text;Ciencias sociales',
+                                   "Ciencias naturales":'relies_prev:partial link text;Ciencias naturales',
+                                   "Geografía":'relies_prev:partial link text;Geografía',
+                                   "Historia":'relies_prev:partial link text;Historia',
+                                   "Política":'relies_prev:partial link text;Política',
+                                   "Religión":'relies_prev:partial link text;Religión',
+                                   "Tecnologías":'relies_prev:partial link text;Tecnologías'
                                },
-                      "gaming":{"video":"rand_ind:css selector;ytd-video-renderer"
-                          
+                      "italiano":{"Discusión":'relies_prev:partial link text;Discusión',
+                                   "Visualizza sorgente":   'relies_prev:partial link text;Visualizza sorgente',
+                                   "Cronologia":  'relies_prev:partial link text;Cronologia',
+                                   "discussioni":    'relies_prev:partial link text;discussioni',
+                                   "contributi":  'relies_prev:partial link text;contributi',
+                                   "registrati":'relies_prev:partial link text;registrati',
+                                   "entra":'relies_prev:partial link text;entra',
+                                   "Informativa sulla privacy":'relies_prev:partial link text;Informativa sulla privacy',
+                                   "Informazioni su Wikipedia":'relies_prev:partial link text;Informazioni su Wikipedia',
+                                   "Avvertenze":'relies_prev:partial link text;Avvertenze',
+                                   "Versione mobile":'relies_prev:partial link text;Versione mobile',
+                                   "Sviluppatori":'relies_prev:partial link text;Sviluppatori',
+                                   "Statistiche":'relies_prev:partial link text;Statistiche',
+                                   "Dichiarazione sui cookie":'relies_prev:partial link text;Dichiarazione sui cookie'     
                       },
+
+                       "فارسی":{"نمایش مبدأ":'relies_prev:partial link text;نمایش مبدأ',
+                                   "خواندن":   'relies_prev:partial link text;خواندن',
+                                   "بحث":  'relies_prev:partial link text;بحث',
+                                   "صفحهٔ اصلی":    'relies_prev:partial link text;صفحهٔ اصلی',
+                                   "یانیهٔ کوکی":  'relies_prev:partial link text;یانیهٔ کوکی',
+                                   "مار":'relies_prev:partial link text;مار',
+                                   "توسعه‌دهندگان":'relies_prev:partial link text;توسعه‌دهندگان',
+                                   "تکذیب‌نامه‌ها":'relies_prev:partial link text;تکذیب‌نامه‌ها'
+                                   },
                   }
                 }
                 }

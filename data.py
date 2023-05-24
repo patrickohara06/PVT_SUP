@@ -213,35 +213,113 @@ WEBSITE_LIST = {"https://www.facebook.com/":
                                  "Privacy Policy":  'relies_prev:partial link text;Privacy Policy',
                                  "Privacy Dashboard":  'relies_prev:partial link text;Privacy Dashboard',
                                  "About Our Ads":  'relies_prev:partial link text;About Our Ads',
-                                 "environment":  'relies_prev:partial link text;Environment',
-                                 "faith":  'relies_prev:partial link text;Faith',
-                                 "funeral and loss":  'relies_prev:partial link text;Funeral and loss',
-                                 "health and medical":  'relies_prev:partial link text;Health and medical',
-                                 "international":  'relies_prev:partial link text;International',
-                                 "personal emergency":  'relies_prev:partial link text;Personal emergency',
-                                 "sports":  'relies_prev:partial link text;Sports'
+                                 "Fantasy":  'relies_prev:partial link text;Fantasy',
+                                 "NHL":  'relies_prev:partial link text;NHL',
+                                 "NBA":  'relies_prev:partial link text;NBA',
+                                 "NFL":  'relies_prev:partial link text;NFL',
+                                 "MLB":  'relies_prev:partial link text;MLB',
+                                 "Videos":  'relies_prev:partial link text;Videos',
+                                 "Soccer":  'relies_prev:partial link text;Soccer',
+                                 "Tennis":  'relies_prev:partial link text;Tennis',
+                                 "Golf":  'relies_prev:partial link text;Golf',
+                                 "CFL":  'relies_prev:partial link text;CFL',
+                                 "MMA":  'relies_prev:partial link text;MMA',
+                                 "NCAAB":  'relies_prev:partial link text;NCAAB',
+                                 "NCAAF":  'relies_prev:partial link text;NCAAF'
                       },
                       "Finance":{
-                                "developer circles":  'relies_prev:partial link text;Developer Circles',
-                                "threatexchange":  'relies_prev:partial link text;ThreatExchange',
-                                "developer support":  'relies_prev:partial link text;Developer Support',
-                                "bugs":  'relies_prev:partial link text;Bugs',
-                                "platform status":  'relies_prev:partial link text;Platform Status',
-                                "report a platform data incident":  'relies_prev:partial link text;Report a Platform Data Incident',
-                                "facebook for developers community group":  'relies_prev:partial link text;Facebook for Developers Community Group',
-                                "sitemap":  'relies_prev:partial link text;Sitemap'
+                                "Finance Home":  'relies_prev:partial link text;Finance Home',
+                                "News":  'relies_prev:partial link text;News',
+                                "Taxes":  'relies_prev:partial link text;Taxes',
+                                "Watchlists":  'relies_prev:partial link text;Watchlists',
+                                "My Portfolio":  'relies_prev:partial link text;My Portfolio',
+                                "Real Estate":  'relies_prev:partial link text;My Screeners',
+                                "Tech":  'relies_prev:partial link text;Tech',
+                                "Data Disclaimer":  'relies_prev:partial link text;Data Disclaimer',
+                                "Help":  'relies_prev:partial link text;Help',
+                                "Suggestions":  'relies_prev:partial link text;Suggestions',
+                                "Terms (Updated)":  'relies_prev:partial link text;Terms (Updated)',
+                                "Privacy":  'relies_prev:partial link text;Privacy',
+                                "About Our Ads":  'relies_prev:partial link text;About Our Ads'
                       },
                       "Life":{
-                                "about meta":  'relies_prev:partial link text;About Meta',
-                                "media gallery":  'relies_prev:partial link text;Media gallery',
-                                "brand resources":  'relies_prev:partial link text;Brand resources',
-                                "for investors":  'relies_prev:partial link text;For investors'                       
+                                "Shopping":  'relies_prev:partial link text;Shopping',
+                                "Reviews":  'relies_prev:partial link text;Reviews',
+                                "Health & Wellness":  'relies_prev:partial link text;Health & Wellness',
+                                "Celebrity":  'relies_prev:partial link text;Celebrity',
+                                "Royals":  'relies_prev:partial link text;Royals',
+                                "Fashion":  'relies_prev:partial link text;Fashion', 
+                                "Beauty":  'relies_prev:partial link text;Beauty', 
+                                "Parenting":  'relies_prev:partial link text;Parenting', 
+                                "Better At":  'relies_prev:partial link text;Better At', 
+                                "Food":  'relies_prev:partial link text;Food', 
+                                "Watch":  'relies_prev:partial link text;Watch'                        
                       },
                       "Entertainment":{
-                                "about meta":  'relies_prev:partial link text;About Meta',
-                                "media gallery":  'relies_prev:partial link text;Media gallery',
-                                "brand resources":  'relies_prev:partial link text;Brand resources',
-                                "for investors":  'relies_prev:partial link text;For investors'                       
+                                "COVID-19":  'relies_prev:partial link text;COVID-19',
+                                "Originals":  'relies_prev:partial link text;Originals',
+                                "Videos":  'relies_prev:partial link text;Videos',
+                                "Canada":  'relies_prev:partial link text;Canada',
+                                "World":  'relies_prev:partial link text;World',   
+                                "Weather":  'relies_prev:partial link text;Weather',  
+                                "Entertainment":  'relies_prev:partial link text;Entertainment',  
+                                "Business":  'relies_prev:partial link text;Business',  
+                                "Sports":  'relies_prev:partial link text;Sports',  
+                                "Science":  'relies_prev:partial link text;Science'                        
+                      },
+                  }
+                },
+                "https://www.reddit.com/":
+                {"specifics":"requires notifications accept or decline to function;",
+                 "endpoints":
+                 { 
+                  "Home":  'partial link text;Mail',   
+                  "Popular":   'partial link text;News',
+                  "Gaming":    'partial link text;Sports',
+                  "Sports": 'partial link text;Finance',
+                  "Business, Economics, and Finance":   'partial link text;Life',
+                  "Crypto": 'partial link text;Entertainment',
+                  "Television": 'partial link text;Television',
+                  "Celebrity": 'partial link text;Celebrity',
+                  "More Topics": 'partial link text;More Topics',
+                 },
+                  "sub-endpoints":
+                  {
+                      "Home":{"User Agreement":  'relies_prev:partial link text;User Agreement',
+                              "Privacy Policy":  'relies_prev:partial link text;Privacy Policy',
+                              "Content Policy":  'relies_prev:partial link text;Content Policy',
+                              "Moderator Code of Conduct":  'relies_prev:partial link text;Moderator Code of Conduct'
+                      },
+                      "Popular":{"Terms":'relies_prev:partial link text;Terms',
+
+                                  },
+                      "Gaming":{
+                                 "Help":  'relies_prev:partial link text;Help',
+
+                      },
+                      "Sports":{
+                                "Finance Home":  'relies_prev:partial link text;Finance Home',
+
+                      },
+                      "Business, Economics, and Finance":{
+                                "Shopping":  'relies_prev:partial link text;Shopping',
+                       
+                      },
+                      "Crypto":{
+                                "COVID-19":  'relies_prev:partial link text;COVID-19',
+                      
+                      },
+                      "Television":{
+                                "COVID-19":  'relies_prev:partial link text;COVID-19',
+                       
+                      },
+                      "Celebrity":{
+                                "COVID-19":  'relies_prev:partial link text;COVID-19',
+                     
+                      },
+                      "More Topics":{
+                                "COVID-19":  'relies_prev:partial link text;COVID-19',
+                       
                       },
                   }
                 },

@@ -158,6 +158,91 @@ WEBSITE_LIST = {"https://www.facebook.com/":
                                    "توسعه‌دهندگان":'relies_prev:partial link text;توسعه‌دهندگان',
                                    "تکذیب‌نامه‌ها":'relies_prev:partial link text;تکذیب‌نامه‌ها'
                                    },
+                        "Русский":{"Обсуждение":'relies_prev:partial link text;Обсуждение',
+                                   "Просмотр кода":   'relies_prev:partial link text;Просмотр кода',
+                                   "История":  'relies_prev:partial link text;История',
+                                   "Вклад":    'relies_prev:partial link text;Вклад',
+                                   "Создать учётную запись":  'relies_prev:partial link text;Создать учётную запись',
+                                   "Войти":'relies_prev:partial link text;Войти',
+                                   "Политика конфиденциальности":'relies_prev:partial link text;Политика конфиденциальности',
+                                   "Описание Википедии":'relies_prev:partial link text;Описание Википедии',
+                                   "Отказ от ответственности":'relies_prev:partial link text;Отказ от ответственности',
+                                   "Свяжитесь с нами":'relies_prev:partial link text;Свяжитесь с нами',
+                                   "Мобильная версия":'relies_prev:partial link text;Мобильная версия',
+                                   "Разработчики":'relies_prev:partial link text;Разработчики',
+                                   "Статистика":'relies_prev:partial link text;Статистика',
+                                   "Заявление о куки":'relies_prev:partial link text;Заявление о куки'     
+                      },
                   }
-                }
+                },
+                "https://ca.yahoo.com/?p=us":
+                {"specifics":"ablock=true;",
+                 "endpoints":
+                 { 
+                  "Mail":  'partial link text;Mail',   
+                  "News":   'partial link text;News',
+                  "Sports":    'partial link text;Sports',
+                  "Finance": 'partial link text;Finance',
+                  "Life":   'partial link text;Life',
+                  "Entertainment": 'partial link text;Entertainment',
+                 },
+                  "sub-endpoints":
+                  {
+                      "Mail":{"About Yahoo Mail":  'relies_prev:partial link text;About Yahoo Mail',
+                                   "Upgrade to Mail Plus":  'relies_prev:partial link text;Upgrade to Mail Plus',             
+                                   "Support":  'relies_prev:partial link text;Support',
+                                   "Sign in":  'relies_prev:partial link text;Sign in',
+                                   "About our Ads":  'relies_prev:partial link text;About our Ads',
+                                   "Terms":  'relies_prev:partial link text;Terms',
+                                   "Privacy Policy":  'relies_prev:partial link text;Privacy Policy',
+                                   "Privacy Dashboard":  'relies_prev:partial link text;Privacy Dashboard',          
+                      },
+                      "News":{"Terms":'relies_prev:partial link text;Terms',
+                                "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                "Privacy Dashboard":'relies_prev:partial link text;Privacy Dashboard',
+                                "Advertise":'relies_prev:partial link text;Advertise',
+                                "About Our Ads":'relies_prev:partial link text;About Our Ads',
+                                "Careers":'relies_prev:partial link text;Careers',
+                                "Help":'relies_prev:partial link text;Help',
+                                "Feedback":'relies_prev:partial link text;Feedback'
+                                  },
+                      "Sports":{
+                                 "Help":  'relies_prev:partial link text;Help',
+                                 "Suggestions":  'relies_prev:partial link text;Suggestions',
+                                 "Terms":  'relies_prev:partial link text;Terms',
+                                 "Privacy Policy":  'relies_prev:partial link text;Privacy Policy',
+                                 "Privacy Dashboard":  'relies_prev:partial link text;Privacy Dashboard',
+                                 "About Our Ads":  'relies_prev:partial link text;About Our Ads',
+                                 "environment":  'relies_prev:partial link text;Environment',
+                                 "faith":  'relies_prev:partial link text;Faith',
+                                 "funeral and loss":  'relies_prev:partial link text;Funeral and loss',
+                                 "health and medical":  'relies_prev:partial link text;Health and medical',
+                                 "international":  'relies_prev:partial link text;International',
+                                 "personal emergency":  'relies_prev:partial link text;Personal emergency',
+                                 "sports":  'relies_prev:partial link text;Sports'
+                      },
+                      "Finance":{
+                                "developer circles":  'relies_prev:partial link text;Developer Circles',
+                                "threatexchange":  'relies_prev:partial link text;ThreatExchange',
+                                "developer support":  'relies_prev:partial link text;Developer Support',
+                                "bugs":  'relies_prev:partial link text;Bugs',
+                                "platform status":  'relies_prev:partial link text;Platform Status',
+                                "report a platform data incident":  'relies_prev:partial link text;Report a Platform Data Incident',
+                                "facebook for developers community group":  'relies_prev:partial link text;Facebook for Developers Community Group',
+                                "sitemap":  'relies_prev:partial link text;Sitemap'
+                      },
+                      "Life":{
+                                "about meta":  'relies_prev:partial link text;About Meta',
+                                "media gallery":  'relies_prev:partial link text;Media gallery',
+                                "brand resources":  'relies_prev:partial link text;Brand resources',
+                                "for investors":  'relies_prev:partial link text;For investors'                       
+                      },
+                      "Entertainment":{
+                                "about meta":  'relies_prev:partial link text;About Meta',
+                                "media gallery":  'relies_prev:partial link text;Media gallery',
+                                "brand resources":  'relies_prev:partial link text;Brand resources',
+                                "for investors":  'relies_prev:partial link text;For investors'                       
+                      },
+                  }
+                },
                 }

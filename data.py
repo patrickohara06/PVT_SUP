@@ -290,36 +290,196 @@ WEBSITE_LIST = {"https://www.facebook.com/":
                               "Content Policy":  'relies_prev:partial link text;Content Policy',
                               "Moderator Code of Conduct":  'relies_prev:partial link text;Moderator Code of Conduct'
                       },
-                      "Popular":{"Terms":'relies_prev:partial link text;Terms',
-
+                      "Popular":{"User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct'
                                   },
                       "Gaming":{
-                                 "Help":  'relies_prev:partial link text;Help',
+                                 "User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct'
 
                       },
                       "Sports":{
-                                "Finance Home":  'relies_prev:partial link text;Finance Home',
-
+                                "User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct'
                       },
                       "Business, Economics, and Finance":{
-                                "Shopping":  'relies_prev:partial link text;Shopping',
-                       
+                                "User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct'       
                       },
                       "Crypto":{
-                                "COVID-19":  'relies_prev:partial link text;COVID-19',
-                      
+                                "User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct' 
                       },
                       "Television":{
-                                "COVID-19":  'relies_prev:partial link text;COVID-19',
-                       
+                                "User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct'
                       },
                       "Celebrity":{
-                                "COVID-19":  'relies_prev:partial link text;COVID-19',
-                     
+                                "User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct'
                       },
-                      "More Topics":{
-                                "COVID-19":  'relies_prev:partial link text;COVID-19',
-                       
+                  }
+                },
+                                "https://www.qq.com/":
+                {"specifics":"requires notifications accept or decline to function;",
+                 "endpoints":
+                 { 
+                  "服务协议":  'partial link text;服务协议',   
+                  "隐私政策":   'partial link text;隐私政策',
+                  "开放平台":    'partial link text;开放平台',
+                  "商务洽谈": 'partial link text;商务洽谈',
+                  "腾讯招聘":   'partial link text;腾讯招聘',
+                 },
+                  "sub-endpoints":
+                  {
+                      "服务协议":{"视频":  'relies_prev:partial link text;视频',
+                              "图片":  'relies_prev:partial link text;图片',
+                              "评论":  'relies_prev:partial link text;评论',
+                              "娱乐":  'relies_prev:partial link text;娱乐'
+                      },
+                      "隐私政策":{"网站导航":'relies_prev:partial link text;网站导航',
+                                 "举报中心":'relies_prev:partial link text;举报中心',
+                                 "客服中心":'relies_prev:partial link text;客服中心',
+                                 "腾讯云":'relies_prev:partial link text;腾讯云'
+                                  },
+                      "开放平台":{
+                                 "应用分发平台":'relies_prev:partial link text;应用分发平台',
+                                 "微信开放平台":'relies_prev:partial link text;微信开放平台',
+                                 "AI开放平台":'relies_prev:partial link text;AI开放平台',
+                                 "腾讯云":'relies_prev:partial link text;腾讯云',
+                                 "QQ互联":'relies_prev:partial link text;QQ互联'
+                      },
+                      "商务洽谈":{
+                                "法律声明":'relies_prev:partial link text;法律声明',
+                                 "阳光准则":'relies_prev:partial link text;阳光准则',
+                                 "网站地图":'relies_prev:partial link text;网站地图',
+                                 "粤网文【2017】6138-1456号":'relies_prev:partial link text;粤网文【2017】6138-1456号',
+                                 "粤B2-20090059":'relies_prev:partial link text;粤B2-20090059'
+                      },
+                      "腾讯招聘":{
+                                "About Tencent":'relies_prev:partial link text;About Tencent',
+                                 "Tencent Charity":'relies_prev:partial link text;Tencent Charity',
+                                 "Customer Service":'relies_prev:partial link text;Customer Service',
+                                 "Service Agreement":'relies_prev:partial link text;Service Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Intellectual Property":'relies_prev:partial link text;Intellectual Property'       
+                      },
+                  }
+                },
+                "https://www.reddit.com/":
+                {"specifics":"requires notifications accept or decline to function;",
+                 "endpoints":
+                 { 
+                  "Home":  'partial link text;Mail',   
+                  "Popular":   'partial link text;News',
+                  "Gaming":    'partial link text;Sports',
+                  "Sports": 'partial link text;Finance',
+                  "Business, Economics, and Finance":   'partial link text;Life',
+                  "Crypto": 'partial link text;Entertainment',
+                  "Television": 'partial link text;Television',
+                  "Celebrity": 'partial link text;Celebrity',
+                  "More Topics": 'partial link text;More Topics',
+                 },
+                  "sub-endpoints":
+                  {
+                      "Home":{"User Agreement":  'relies_prev:partial link text;User Agreement',
+                              "Privacy Policy":  'relies_prev:partial link text;Privacy Policy',
+                              "Content Policy":  'relies_prev:partial link text;Content Policy',
+                              "Moderator Code of Conduct":  'relies_prev:partial link text;Moderator Code of Conduct'
+                      },
+                      "Popular":{"User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct'
+                                  },
+                      "Gaming":{
+                                 "User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct'
+
+                      },
+                      "Sports":{
+                                "User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct'
+                      },
+                      "Business, Economics, and Finance":{
+                                "User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct'       
+                      },
+                      "Crypto":{
+                                "User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct' 
+                      },
+                      "Television":{
+                                "User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct'
+                      },
+                      "Celebrity":{
+                                "User Agreement":'relies_prev:partial link text;User Agreement',
+                                 "Privacy Policy":'relies_prev:partial link text;Privacy Policy',
+                                 "Content Policy":'relies_prev:partial link text;Content Policy',
+                                 "Moderator Code of Conduct":'relies_prev:partial link text;Moderator Code of Conduct'
+                      },
+                  }
+                },
+                "https://www.amazon.com/":
+                {"specifics":"requires notifications accept or decline to function;",
+                 "endpoints":
+                 { 
+                  "Careers":  'partial link text;Careers',   
+                  "Blog":   'partial link text;Blog',
+                  "About Amazon":    'partial link text;About Amazon',
+                  "Investor Relations": 'partial link text;Investor Relations',
+                  "Amazon Devices":   'partial link text;Amazon Devices',
+                  "Amazon Science":   'partial link text;Amazon Science',
+                 },
+                  "sub-endpoints":
+                  {
+                      "Careers":{"Job Categories":  'relies_prev:partial link text;Job Categories',
+                              "Teams":  'relies_prev:partial link text;Teams',
+                              "Locations":  'relies_prev:partial link text;Locations',
+                              "US and EU Military recruiting":  'relies_prev:partial link text;US and EU Military recruiting',
+                              "Warehouse and Hourly Jobs":  'relies_prev:partial link text;Warehouse and Hourly Jobs'
+                      },
+                      "Blog":{"Amazon News":'relies_prev:partial link text;Amazon News',
+                                 "Amazon.com":'relies_prev:partial link text;Amazon.com',
+                                 "Careers":'relies_prev:partial link text;Careers',
+                                 "Press Center":'relies_prev:partial link text;Press Center'
+                                  },
+                      "About Amazon":{
+
+                      },
+                      "Investor Relations":{
+
+                      },
+                      "Amazon Devices":{
+     
+                      },
+                      "Amazon Science":{
+     
                       },
                   }
                 },

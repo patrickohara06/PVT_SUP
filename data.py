@@ -467,19 +467,253 @@ WEBSITE_LIST = {"https://www.facebook.com/":
                       "Blog":{"Amazon News":'relies_prev:partial link text;Amazon News',
                                  "Amazon.com":'relies_prev:partial link text;Amazon.com',
                                  "Careers":'relies_prev:partial link text;Careers',
-                                 "Press Center":'relies_prev:partial link text;Press Center'
+                                 "Press Center":'relies_prev:partial link text;Press Center',
+                                 "Investor Resources":'relies_prev:partial link text;Investor Resources',
+                                 "Facts about Amazon":'relies_prev:partial link text;Facts about Amazon'
                                   },
-                      "About Amazon":{
+                      "About Amazon":{"Amazon News":'relies_prev:partial link text;Amazon News',
+                                 "Amazon.com":'relies_prev:partial link text;Amazon.com',
+                                 "Careers":'relies_prev:partial link text;Careers',
+                                 "Press Center":'relies_prev:partial link text;Press Center',
+                                 "Investor Resources":'relies_prev:partial link text;Investor Resources',
+                                 "Facts about Amazon":'relies_prev:partial link text;Facts about Amazon'
+                      },
+                      "Investor Relations":{"Annual reports, proxies and shareholder letters":'relies_prev:partial link text;Annual reports, proxies and shareholder letters',
+                                 "Quarterly results":'relies_prev:partial link text;Quarterly results',
+                                 "SEC filings":'relies_prev:partial link text;SEC filings',
+                                 "Press Center":'relies_prev:partial link text;Press Center',
+                                 "Press releases":'relies_prev:partial link text;Press releases',
+                                 "FAQs":'relies_prev:partial link text;FAQs'
 
                       },
-                      "Investor Relations":{
+                      "Amazon Devices":{"Amazon News":'relies_prev:partial link text;Amazon News',
+                                 "Amazon.com":'relies_prev:partial link text;Amazon.com',
+                                 "Careers":'relies_prev:partial link text;Careers',
+                                 "Press Center":'relies_prev:partial link text;Press Center',
+                                 "Investor Resources":'relies_prev:partial link text;Investor Resources',
+                                 "Facts about Amazon":'relies_prev:partial link text;Facts about Amazon'
+                      },
+                  }
+                },
+                                "https://twitter.com/":
+                {"specifics":"requires notifications accept or decline to function;",
+                 "endpoints":
+                 { 
+                  "Terms of Service":  'partial link text;Terms of Service',   
+                  "Privacy Policy":   'partial link text;Privacy Policy',
+                  "Cookie Policy":    'partial link text;Cookie Policy',
+                  "Accessibility": 'partial link text;Accessibility',
+                  "Ads info":   'partial link text;Ads info'
+                 },
+                  "sub-endpoints":
+                  {
+                      "Terms of Service":{"Twitter.com":  'relies_prev:partial link text;Twitter.com',
+                              "Status":  'relies_prev:partial link text;Status',
+                              "Accessibility":  'relies_prev:partial link text;Accessibility',
+                              "Embed a Tweet":  'relies_prev:partial link text;Embed a Tweet',
+                              "Privacy Policy":  'relies_prev:partial link text;Privacy Policy'
+                      },
+                      "Privacy Policy":{"Twitter for Good":'relies_prev:partial link text;Twitter for Good',
+                                 "About the company":'relies_prev:partial link text;About the company',
+                                 "Company news":'relies_prev:partial link text;Company news',
+                                 "Brand toolkit":'relies_prev:partial link text;Brand toolkit',
+                                 "Jobs and internships":'relies_prev:partial link text;Jobs and internships',
+                                 "Investors":'relies_prev:partial link text;Investors'
+                                  },
+                      "Cookie Policy":{"Help Center":'relies_prev:partial link text;Help Center',
+                                 "Using Twitter":'relies_prev:partial link text;Using Twitter',
+                                 "Twitter for creators":'relies_prev:partial link text;Twitter for creators',
+                                 "Ads Help Center":'relies_prev:partial link text;Ads Help Center',
+                                 "Managing your account":'relies_prev:partial link text;Managing your account',
+                                 "Email Preference Center":'relies_prev:partial link text;Email Preference Center'
+                      },
+                      "Accessibility":{"Developer home":'relies_prev:partial link text;Developer home',
+                                 "Documentation":'relies_prev:partial link text;Documentation',
+                                 "Forums":'relies_prev:partial link text;Forums',
+                                 "Communities":'relies_prev:partial link text;Communities',
+                                 "Developer blog":'relies_prev:partial link text;Developer blog',
+                                 "Engineering blog":'relies_prev:partial link text;Engineering blog'
 
                       },
-                      "Amazon Devices":{
-     
+                      "Ads info":{"Advertise":'relies_prev:partial link text;Advertise',
+                                 "Twitter for business":'relies_prev:partial link text;Twitter for business',
+                                 "Resources and guides":'relies_prev:partial link text;Resources and guides',
+                                 "Twitter for marketers":'relies_prev:partial link text;Twitter for marketers',
+                                 "Marketing insights":'relies_prev:partial link text;Investor Resources',
+                                 "Brand inspiration":'relies_prev:partial link text;Brand inspiration'
                       },
-                      "Amazon Science":{
-     
+                  }
+                },
+                                "https://www.amazon.com/":
+                {"specifics":"requires notifications accept or decline to function;",
+                 "endpoints":
+                 { 
+                  "Careers":  'partial link text;Careers',   
+                  "Blog":   'partial link text;Blog',
+                  "About Amazon":    'partial link text;About Amazon',
+                  "Investor Relations": 'partial link text;Investor Relations',
+                  "Amazon Devices":   'partial link text;Amazon Devices',
+                  "Amazon Science":   'partial link text;Amazon Science',
+                 },
+                  "sub-endpoints":
+                  {
+                      "Careers":{"Job Categories":  'relies_prev:partial link text;Job Categories',
+                              "Teams":  'relies_prev:partial link text;Teams',
+                              "Locations":  'relies_prev:partial link text;Locations',
+                              "US and EU Military recruiting":  'relies_prev:partial link text;US and EU Military recruiting',
+                              "Warehouse and Hourly Jobs":  'relies_prev:partial link text;Warehouse and Hourly Jobs'
+                      },
+                      "Blog":{"Amazon News":'relies_prev:partial link text;Amazon News',
+                                 "Amazon.com":'relies_prev:partial link text;Amazon.com',
+                                 "Careers":'relies_prev:partial link text;Careers',
+                                 "Press Center":'relies_prev:partial link text;Press Center',
+                                 "Investor Resources":'relies_prev:partial link text;Investor Resources',
+                                 "Facts about Amazon":'relies_prev:partial link text;Facts about Amazon'
+                                  },
+                      "About Amazon":{"Amazon News":'relies_prev:partial link text;Amazon News',
+                                 "Amazon.com":'relies_prev:partial link text;Amazon.com',
+                                 "Careers":'relies_prev:partial link text;Careers',
+                                 "Press Center":'relies_prev:partial link text;Press Center',
+                                 "Investor Resources":'relies_prev:partial link text;Investor Resources',
+                                 "Facts about Amazon":'relies_prev:partial link text;Facts about Amazon'
+                      },
+                      "Investor Relations":{"Annual reports, proxies and shareholder letters":'relies_prev:partial link text;Annual reports, proxies and shareholder letters',
+                                 "Quarterly results":'relies_prev:partial link text;Quarterly results',
+                                 "SEC filings":'relies_prev:partial link text;SEC filings',
+                                 "Press Center":'relies_prev:partial link text;Press Center',
+                                 "Press releases":'relies_prev:partial link text;Press releases',
+                                 "FAQs":'relies_prev:partial link text;FAQs'
+
+                      },
+                      "Amazon Devices":{"Amazon News":'relies_prev:partial link text;Amazon News',
+                                 "Amazon.com":'relies_prev:partial link text;Amazon.com',
+                                 "Careers":'relies_prev:partial link text;Careers',
+                                 "Press Center":'relies_prev:partial link text;Press Center',
+                                 "Investor Resources":'relies_prev:partial link text;Investor Resources',
+                                 "Facts about Amazon":'relies_prev:partial link text;Facts about Amazon'
+                      },
+                  }
+                },
+                                "https://outlook.live.com/owa/":
+                {"specifics":"requires notifications accept or decline to function;",
+                 "endpoints":
+                 { 
+                  "Privacy & cookies":  'partial link text;Privacy & cookies',   
+                  "Terms of use":   'partial link text;Terms of use',
+                  "About our ads":    'partial link text;About our ads',
+                  "Trademarks": 'partial link text;Trademarks',
+                  "Contact us":   'partial link text;Contact us'
+                 },
+                  "sub-endpoints":
+                  {
+                      "Privacy & cookies":{"Sitemap":  'relies_prev:partial link text;Sitemap',
+                              "Contact Microsoft":  'relies_prev:partial link text;Contact Microsoft',
+                              "Privacy":  'relies_prev:partial link text;Privacy',
+                              "Terms of use":  'relies_prev:partial link text;Terms of use',
+                              "Trademarks":  'relies_prev:partial link text;Trademarks'
+                      },
+                      "Terms of use":{"Account profile":'relies_prev:partial link text;Account profile',
+                                 "Download Center":'relies_prev:partial link text;Download Center',
+                                 "Microsoft Store support":'relies_prev:partial link text;Microsoft Store support',
+                                 "Returns":'relies_prev:partial link text;Returns',
+                                 "Order tracking":'relies_prev:partial link text;Order tracking',
+                                 "Trade-in for Cash":'relies_prev:partial link text;Trade-in for Cash'
+                                  },
+                      "About our ads":{"Privacy & cookies":'relies_prev:partial link text;Privacy & cookies',
+                                 "Terms of use":'relies_prev:partial link text;Terms of use',
+                                 "Contact us":'relies_prev:partial link text;Contact us',
+                                 "Feedback":'relies_prev:partial link text;Feedback'
+                      },
+                      "Trademarks":{"Microsoft Cloud":'relies_prev:partial link text;Microsoft Cloud',
+                                 "Microsoft Security":'relies_prev:partial link text;Microsoft Security',
+                                 "Dynamics 365":'relies_prev:partial link text;Dynamics 365',
+                                 "Microsoft 365":'relies_prev:partial link text;Microsoft 365',
+                                 "Microsoft Power Platform":'relies_prev:partial link text;Microsoft Power Platform',
+                                 "Microsoft Terms":'relies_prev:partial link text;Microsoft Terms'
+
+                      },
+                      "Contact us":{"Azure":'relies_prev:partial link text;Azure',
+                                 "Developer Center":'relies_prev:partial link text;Developer Center',
+                                 "Documentation":'relies_prev:partial link text;Documentation',
+                                 "Microsoft Learn":'relies_prev:partial link text;Microsoft Learn',
+                                 "Microsoft Tech Community":'relies_prev:partial link text;Microsoft Tech Community',
+                                 "Azure Marketplace":'relies_prev:partial link text;Azure Marketplace'
+                      },
+                  }
+                },
+                                                "https://vk.com/":
+                {"specifics":"requires notifications accept or decline to function;",
+                 "endpoints":
+                 { 
+                  "About VK":  'partial link text;About VK',   
+                  "Terms":   'partial link text;Terms',
+                  "Developers":    'partial link text;Developers'
+                 },
+                  "sub-endpoints":
+                  {
+                      "About VK":{"Developers":  'relies_prev:partial link text;Developers',
+                              "VK Ads":  'relies_prev:partial link text;VK Ads',
+                              "Legal information":  'relies_prev:partial link text;Legal information',
+                              "Data Protection":  'relies_prev:partial link text;Data Protection',
+                              "Safety Guidelines":  'relies_prev:partial link text;Safety Guidelines',
+                              "Privacy Policy":  'relies_prev:partial link text;Privacy Policy'
+                      },
+                      "Terms":{"Music":'relies_prev:partial link text;Music',
+                                 "Videos":'relies_prev:partial link text;Videos',
+                                 "Communities":'relies_prev:partial link text;Communities',
+                                 "Mini apps":'relies_prev:partial link text;Mini apps',
+                                 "Games":'relies_prev:partial link text;Games'
+                                  },
+                      "Developers":{"Документация":'relies_prev:partial link text;Документация',
+                                 "API":'relies_prev:partial link text;API',
+                                 "Сообщество":'relies_prev:partial link text;Сообщество',
+                                 "Создать приложение":'relies_prev:partial link text;Создать приложение'
+                      },
+                  }
+                },
+                                                                "https://instagram.com/":
+                {"specifics":"requires notifications accept or decline to function;",
+                 "endpoints":
+                 { 
+                  "Meta":  'partial link text;Meta',   
+                  "About":   'partial link text;About',
+                  "Blog":    'partial link text;Blog',
+                  "Jobs":    'partial link text;Jobs',
+                  "Help":    'partial link text;Help'
+                 },
+                  "sub-endpoints":
+                  {
+                      "Meta":{"Shop Meta Quest":  'relies_prev:partial link text;Shop Meta Quest',
+                              "Refurbished Meta Quest 2":  'relies_prev:partial link text;Refurbished Meta Quest 2',
+                              "VR for Good":  'relies_prev:partial link text;VR for Good',
+                              "Forums":  'relies_prev:partial link text;Forums',
+                              "Referrals":  'relies_prev:partial link text;Referrals',
+                              "Blog":  'relies_prev:partial link text;Blog'
+                      },
+                      "About":{"Safety":'relies_prev:partial link text;Safety',
+                                 "Creators":'relies_prev:partial link text;Creators',
+                                 "Blog":'relies_prev:partial link text;Blog',
+                                 "Brand":'relies_prev:partial link text;Brand',
+                                 "Engineering":'relies_prev:partial link text;Engineering',
+                                 "Help":'relies_prev:partial link text;Help'
+                                  },
+                      "Blog":{"Careers":'relies_prev:partial link text;Careers',
+                                 "Brand Assets":'relies_prev:partial link text;Brand Assets',
+                                 "Anti-Bullying":'relies_prev:partial link text;Anti-Bullying',
+                                 "Parents":'relies_prev:partial link text;Parents',
+                                 "Programs":'relies_prev:partial link text;Programs',
+                      },
+                      "Jobs":{"Advertising":'relies_prev:partial link text;Advertising',
+                                 "Partners":'relies_prev:partial link text;Partners',
+                                 "Success Stories":'relies_prev:partial link text;Success Stories',
+                                 "Careers":'relies_prev:partial link text;Careers',
+                                 "Brand Assets":'relies_prev:partial link text;Brand Assets'
+                      },
+                      "Help":{"About Us":'relies_prev:partial link text;About Us',
+                                 "Terms":'relies_prev:partial link text;Terms',
+                                 "API":'relies_prev:partial link text;API',
+                                 "Privacy":'relies_prev:partial link text;Privacy',
+                                 "Jobs":'relies_prev:partial link text;Jobs'
                       },
                   }
                 },
